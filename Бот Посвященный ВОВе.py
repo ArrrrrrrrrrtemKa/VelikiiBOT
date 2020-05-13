@@ -5,7 +5,7 @@ import random
 #from auth import TOKEN
 
 #tuta token gruppi
-TOKEN = '38f9333276f4ac4c6854fea7fd8c61a00967d9ffb1ada3575154bd8a4f92a46474933a35b4b93d982d53d'
+TOKEN = ""
 session = requests.Session()
 vk_session = vk_api.VkApi(token=TOKEN)
 
